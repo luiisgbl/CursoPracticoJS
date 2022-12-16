@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 20px 0;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+body {
+    background-color: rgba(198, 227, 245, 0.308);
+}
+
+header{
+    height: 100vh;
+    margin: 5%  10% 5% 10%;
+}
+
+
+.container {
+    display: grid;
+}
+
+.container .tittle{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container .description{
+    font-size: 1.1rem;
+    margin: 10px 0;
+}

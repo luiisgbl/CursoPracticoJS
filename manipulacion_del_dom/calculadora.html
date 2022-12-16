@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/calculadora.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="./index.html">ir al home</a>
+        </nav>
+
+        <div class="container">
+            <h2>Ejercicios</h2>
+            <section class="ejercicio1">
+                <p>Ejercicio de Manipulacion del DOM con JavaScript, concatenando datos recibidos por dos inputs</p>
+                <input type="text" id="dato1">
+                <input type="text" id="dato2">
+                <button id="concatenar" onclick="concatena()">Concatenar</button>
+                <button id="sumar" onclick="suma()">Sumar</button>
+                <p id="resultado"></p>
+            </section>
+            
+
+
+            <h2>Proyectos</h2>
+            <section id="calculadora">
+                <h1>Calculadora</h1>
+                <p class="pantalla">aca va el reusltado</p>
+                <div class="teclado">
+                    <button id="ce" class="bottom">CE</button>
+                <button id="c" class="bottom">C</button>
+                <button id="divi" class="bottom">/</button>
+                <button id="mult" class="bottom">*</button>
+                <button id="uno" class="bottom" value="1">1</button>
+                <button id="dos" class="bottom" value="2">2</button>
+                <button id="tres" class="bottom" value="3">3</button>
+                <button id="resta" class="bottom" >-</button>
+                <button id="cuatro" class="bottom" value="4">4</button>
+                <button id="cinco" class="bottom" value="5">5</button>
+                <button id="seis" class="bottom" value="6">6</button>
+                <button id="suma" class="bottom">+</button>
+                <button id="siete" class="bottom" value="7">7</button>
+                <button id="ocho" class="bottom" value="8">8</button>
+                <button id="nueve" class="bottom" value="9">9</button>
+                <button id="calcular" onclick="sumar()" class="bottom">=</button>
+                <button id="cero" class="bottom" value="0">0</button>
+            </div>
+        </section>
+        
+        
+        
+    </div>
+    </header>
+
+
+    <script src="./js/calculadora.js"></script>
+</body>
+</html>
